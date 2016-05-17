@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp">
+
+    <com.deepakbaliga.krishnaconchem.Adapters.SquareView
+        android:id="@+id/certificate_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/certificate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/certificate_image_view"
+        android:text="Title Certificate"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

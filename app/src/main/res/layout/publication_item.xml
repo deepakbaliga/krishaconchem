@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:elevation="14dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/publication_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title of Project"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/publication_authors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Authors"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/publication_title"
+            />
+
+        <TextView
+            android:id="@+id/publication_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description could be very long as long as an elephats tail but not necessarily as long as that because when thetail is long it is long as long as that of the t elemephant in it natural habitat with tress and rivers"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:layout_below="@id/publication_authors"
+            />
+
+        <Button
+            android:id="@+id/publication_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:textColor="#fff"
+            android:background="@drawable/round_corner_filler"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/publication_description"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
