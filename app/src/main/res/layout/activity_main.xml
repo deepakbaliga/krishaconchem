@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.deepakbaliga.krishnaconchem.MainActivity"
-    >
+    tools:context="com.deepakbaliga.krishnaconchem.MainActivity">
 
 <RelativeLayout
     android:layout_width="match_parent"
@@ -45,10 +44,10 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:textAllCaps="true"
-            android:text="About US"
-            android:textSize="14sp"
+            android:text="About Us"
+            android:textSize="16sp"
             android:textColor="#fff"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/logo"/>
 
@@ -77,15 +76,15 @@
         <ImageView
             android:id="@+id/products_imageview"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="175dp"
             android:scaleType="fitXY"
             />
 
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="#99000000" />
+            android:layout_height="175dp"
+            android:background="#55000000" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -141,7 +140,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:background="#99000000" />
+                    android:background="#55000000" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -182,7 +181,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:background="#99000000" />
+                    android:background="#55000000" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -238,7 +237,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:background="#99000000" />
+                    android:background="#55000000" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -279,7 +278,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:background="#99000000" />
+                    android:background="#55000000" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -335,7 +334,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:background="#99000000" />
+                    android:background="#55000000" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -344,6 +343,7 @@
                     android:textSize="22sp"
                     android:textStyle="bold"
                     android:layout_centerInParent="true"
+                    android:textAlignment="center"
                     android:textColor="#fff"/>
 
 
@@ -377,12 +377,12 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:background="#99000000" />
+                    android:background="#55000000" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Contacts"
+                    android:text="Contact Us"
                     android:textSize="22sp"
                     android:textStyle="bold"
                     android:layout_centerInParent="true"

@@ -25,7 +25,6 @@ public class MajorUsersActivity extends AppCompatActivity {
             R.drawable.mseven,
             R.drawable.meight,
             R.drawable.mnine,
-            R.drawable.mten,
             R.drawable.meleven,
             R.drawable.mtwelve
 
@@ -40,7 +39,6 @@ public class MajorUsersActivity extends AppCompatActivity {
             "NHAI",
             "Reliance",
             "SEZ",
-            "PAHAPUR",
             "ISRO",
             "UltraTech"
     };
