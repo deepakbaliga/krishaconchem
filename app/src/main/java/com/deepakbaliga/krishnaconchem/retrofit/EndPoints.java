@@ -20,24 +20,26 @@ public interface EndPoints {
 
 
     @Headers({
-            "application-id : 5326ACA9-1D64-1485-FFEB-12F4C141EF00",
-            "secret-key : CCF70C9E-B3ED-1198-FF9C-911FE8015200"
+            "application-id :  5326ACA9-1D64-1485-FFEB-12F4C141EF00",
+            "secret-key :  CCF70C9E-B3ED-1198-FF9C-911FE8015200"
     })
     @GET("data/publication")
     Call<PublicationResponse> getPublications();
 
 
     @Headers({
-            "application-id : 5326ACA9-1D64-1485-FFEB-12F4C141EF00",
-            "secret-key : CCF70C9E-B3ED-1198-FF9C-911FE8015200"
-    })
+            "application-id :  5326ACA9-1D64-1485-FFEB-12F4C141EF00",
+            "secret-key :  CCF70C9E-B3ED-1198-FF9C-911FE8015200",
+            "application-type : REST",
+            "Content-Type : application/json"
+            })
     @GET("data/datasheets")
     Call<DataSheetsResponse> getTechnicalDatasheets(@Query("pageSize") int pageset);
 
 
     @Headers({
-            "application-id : 5326ACA9-1D64-1485-FFEB-12F4C141EF00",
-            "secret-key : CCF70C9E-B3ED-1198-FF9C-911FE8015200"
+            "application-id :  5326ACA9-1D64-1485-FFEB-12F4C141EF00",
+            "secret-key :  CCF70C9E-B3ED-1198-FF9C-911FE8015200"
     })
     @GET("data/products")
     Call<ProductResponse> getProducts(@Query("where") String code,@Query("pageSize") int pageset);

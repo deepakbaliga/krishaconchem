@@ -62,6 +62,9 @@ public class TechnicalDatasheetsActivity extends AppCompatActivity {
             @Override
             public void onSuccess(Response response) {
                 Log.e("TDS", response.code()+"");
+                Log.e("TDS", response.message()+"");
+                Log.e("TDS", response.body().toString()+"");
+
 
 
                 Response<DataSheetsResponse> res = response;
